@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Order Now!</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+    body{
+ background-color:rgb(126, 47, 47);
+    }
+html {
+  box-sizing: border-box;
+  
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color:#fff;
+}
+
+.container {
+  padding: 0 16px;
+  background-color:#fff;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+ 
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+</style>
+</head>
+<body>
+
+<h2>Delicious cakes to try out!</h2>
+
+<br>
+
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="trufflecake.jpeg"  style="width:100%; height:30%;" >
+      <div class="container">
+        <h2>Dark Choco Cake</h2>
+        <p class="title">Contains dark chocolate outside and milk chocolate inside</p>
+        <p>Too much of chocolate inside and outside!Ocean of chocolate for one who craves for chocolate!</p>
+        <p><button class="button">Order Now!</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="fruitpunchcake.jpeg"  style="width:100%;height:30%;">
+      <div class="container">
+        <h2>Fruit Punch</h2>
+        <p class="title">Contains strawberries,nuts and chocolate</p>
+        <p>Fruits makes body healthy and glowing chocolate makes body energtic.</p>
+        
+        <p><button class="button">Order Now!</button></p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="cheesecake.jpeg" alt="John" style="width:100%">
+      <div class="container">
+        <h2>Cheese Cake</h2>
+        <p class="title">Cake walk's well know receipe</p>
+        <p></p>
+        <p>It tastes spicy and sweet.We are know for creative stuff. We keep invotating.</p>
+        <p><button class="button">Order Now!</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

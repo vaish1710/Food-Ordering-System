@@ -1,0 +1,91 @@
+<!<doctype html>
+    <html>
+    <head>
+        <title>CAKE WALK</title>
+        <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <link rel ="stylesheet" type ="text/css" href =" css/style.css">
+    <script type="javascript" href="signup.js"></script>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Flamenco&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <body>
+        <header>
+            <nav> 
+                <div class="container">
+                <div class ="row clearfix">
+                    <img src="logo.jpg" class= "logo" >
+                    <div class = "main-nav animated sildeInDown" id="check-class"> 
+                        <li><a href ="#" > CAKE DELIVERY</a></li>
+                        <li><a href ="ordernow.html" > ORDER NOW</a></li>
+                        <div class="dropdown">
+                            CHECK MORE
+                            <div class="dropdown-content">
+                              <a href="#">Chocolates</a><br>
+                              <a href="#">Cookies</a><br>
+                              <a href="#">pastries</a>
+                            </div>
+                          </div> 
+                        
+                        <li><a href ="sign.html" > SIGN UP</a></li>
+            </nav>
+            <div class ="main-content-header">
+            <h1> Welcome to <span class = "colorchange">Cake Walk confectionery</span> where baking  cakes is a cake walk for one!!!
+             </h1>
+             <a href="ordernow.html" class ="btn btn-full"> CLICK TO ORDER</a>
+             <a href="#" class ="btn btn-nav">GRAB MORE </a>
+             <div class="icon-bar">
+                <a href="#" class="facebook"><i class="fa fa-facebook"></i></a> 
+                <a href="#" class="twitter"><i class="fa fa-twitter"></i></a> 
+                <a href="#" class="google"><i class="fa fa-google"></i></a> 
+                <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+                <a href="#" class="youtube"><i class="fa fa-youtube"></i></a> 
+              </div>
+            </div>
+        </header>
+        <div class="footer">
+            <div class="choco">
+              <img src="choco12.jpeg" style="height:auto; width:100%; top:-70px;">
+              </div>
+        <button onclick="topFunction()" id="myBtn" title="Go to top"><strong>Top</strong></button>
+        </div>
+<div style="background-color:inherit;color:black;"> </div>
+<div style="background-color:inherit;padding:30px 30px auto;"></div>
+<div class="para">
+  <img src="b.jpg" id="bake" >
+</div>
+    </div>
+    </div>
+   
+        <script type ="text/javascript">
+        function slideshow(){
+            var x =document.getElementById('check-class');
+            if(x.style.display   ==="none"){
+                x.style.display="block";
+            }else{
+                x.style.display="none";
+            }
+ 
+        }  
+        
+var mybutton = document.getElementById("myBtn");
+
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}   
+
+        </script>
+    </body>
+    </html>
